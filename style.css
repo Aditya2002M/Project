@@ -2,4 +2,130 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
+
+.nav1{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-color: #eb5757;
+}
+
+.logo{
+    float: left;
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    padding-top: 15px;
+}
+
+.logo img{
+    width: 150px;
+    height: 50px;
+}
+
+
+.nav_list{
+    float: right;
+}
+
+.nav_item{
+    display: inline-block;
+    list-style: none;
+}
+
+.cart{
+    display: inline-block;
+    list-style: none;
+    padding-left: 20px;
+   
+}
+
+.my_cart{
+    float: right;
+    margin-top: 10px;
+    padding-top: 3px;
+}
+
+.nav_link{
+    font-size: 18px;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.nav_link:hover{
+    background-color: black;
+}
+
+.cart_link:hover{
+    cursor: pointer;
+}
+.home img{
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.heading{
+    color: white;
+    position: absolute;
+    top : 33%;
+    width: 100%;
+    text-align: left;
+    font-size: 60px;
+    line-height: 1.2;
+    margin-left: -150px;
+}
+
+.home_para{
+    color: white;
+    position: absolute;
+    top : 53%;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 88px;
+    margin-top: 20px; 
+}
+
+.btn{
+    color: white;
+    cursor: pointer; 
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: transparent;
+    font-weight: bold;
+    padding: 5px 12px;
+    border-width: 1px;
+    
+}
+
+.btn:hover{
+    color: black; 
+    background-color: white;
+    
+}
+
+.button{
+    margin-top: -210px;
+    margin-left: 180px;
+}
+
+
+
+
+
+
+
+
+
+
