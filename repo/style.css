@@ -1,0 +1,254 @@
+.html {
+  font-family: sans-serif;
+}
+.support-section{
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+.container{
+  display: flex;
+  max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left:15px;
+}
+.support-top-wrapper {
+  display: flex;
+  margin-bottom: 40px;
+  align-items: center;
+}
+.support-top-wrapper{ 
+    flex-direction: column;
+    align-items: flex-start;
+}
+.support-top-left{
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+.support-top-details{
+  text-transform: uppercase;
+}
+.support-top-heading{
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 40px;
+  line-height: 1.2;
+}
+.h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: bold;
+}
+.support-top-right {
+  width: 45%;
+  margin-left: 410px;
+  padding-right: 10px;
+}
+.support-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.support-column {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.support-column {
+  width: 30%;
+  min-height: 200px;
+}
+.support-square {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  min-height: 350px;
+  margin-bottom: 45px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #222;
+}
+.support-square-no {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  right: auto;
+  bottom: auto;
+  color: #f9f9f9;
+  font-size: 40px;
+  font-weight: 700;
+}
+.support-square-text{
+  color: #f9f9f9;
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.support-square-text:hover{
+  color: red;
+}
+.img{
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.img {
+  border: 0;
+}
+.support-square {
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  overflow: hidden;
+  min-height: 350px;
+  margin-bottom: 45px;
+  border-radius: 20px;
+  background-color: #222;
+}
+.p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-left: autos;
+  margin-left: 10px;
+  margin-right:10px ;
+}
+.div {
+  display: block;
+}
+.support-column {
+  width: 30%;
+  min-height: 200px;
+  margin-right: 10px;
+}
+.support-square-image.triangle {
+  right: -11%;
+  bottom: -17%;
+}
+.support-square-image {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: -25%;
+  bottom: -25%;
+}
+.img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.safe-section {
+  min-height: 550px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 34, 0.17)), to(#222)), url("https://media.istockphoto.com/id/1181366400/photo/in-the-hands-of-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-on.jpg?s=612x612&w=0&k=20&c=jWUMrHgjMY9zQXsAwZFb1jfM6KxZE16-IXI1bvehjQM=");
+  background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.17), #222), url("https://media.istockphoto.com/id/1181366400/photo/in-the-hands-of-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-on.jpg?s=612x612&w=0&k=20&c=jWUMrHgjMY9zQXsAwZFb1jfM6KxZE16-IXI1bvehjQM=");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.safe-wrapper {
+  display: flex;
+  min-height: 550px;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.safe-heading {
+  width: 45%;
+  color: #f9f9f9;
+  font-size: 45px;
+  line-height: 1.2;
+  text-align: right;
+}
+.safe-paragraph {
+  width: 35%;
+  margin-bottom: 25px;
+  color: #f9f9f9;
+  font-size: 18px;
+  text-align: right;
+}
+.p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.safe-wrapper {
+  
+  display: flex;
+  min-height: 550px;
+  
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.btn.light.hero {
+  margin-right: 10px;
+}
+.btn.light {
+  border-color: #f9f9f9;
+  background-color: #f9f9f9;
+  color: #222;
+}
+.btn {
+  padding: 5px 25px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eb5757;
+  border-radius: 5px;
+  background-color: #eb5757;
+  
+  font-weight: 700;
+}
+.w-button {
+  display: inline-block;
+  padding: 9px 15px;
+  background-color: #3898EC;
+  color: white;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0;
+}
+body {
+
+  margin: 0;
+  min-height: 100%;
+  background-color: #fff;
+  font-family: Arial,sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  color: #333;
+}
+.h2 {
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 20px;
+}
+.h1, h2, h4, h5, h6 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.safe-para{
+  color: #f9f9f9;
+  font-style: italic;
+}
+
+
+
