@@ -1,0 +1,14 @@
+.con1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: auto;
+   background: #dfdede;
+  padding:30px 0px;
+  margin: 10px 50px;
+  border-radius: 10px;
+}
+.con1:hover{
+    cursor: pointer;
+}

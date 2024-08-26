@@ -1,0 +1,109 @@
+
+/* Light mode (default) */
+nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.nav-middle ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 110px;
+}
+
+.nav-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+}
+
+a {
+    margin-right: 30px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.mode {
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+button {
+    margin-right: 50px;
+    padding: 8px 20px;
+    border-radius: 7px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    transition: 0.4s;
+    background-color: rgb(0, 76, 255);
+}
+
+img {
+    height: 90px;
+    width: 90px;
+}
+
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: #8b5cf6;
+    transform-origin: 0%;
+}
+
+/* Dark mode */
+body.dark-mode nav {
+    background: #121212;
+    color: #ffffff;
+}
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+
+body.dark-mode a {
+    color: #ffffff;
+}
+
+body.dark-mode button {
+    background-color: #bb86fc;
+}
+
+body.dark-mode button:hover {
+    background-color: #3700b3;
+}
+
+body.dark-mode .progress-bar {
+    background: #bb86fc;
+}
+
+body.dark-mode img {
+    filter: brightness(1) invert(1); 
+}

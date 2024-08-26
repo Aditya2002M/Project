@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+html,body{
+    height: 100vh;
+    width: 100%;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+footer{
+    height: 180px;
+    width: 100%;
+    position: relative;
+    background: #4c4ca8;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+}
+footer ul li a .icon{
+    height: 50px;
+    width: 50px;
+}
+footer ul li a{
+    transition: all 0.5s;
+    display: inline-block;
+   
+}
+footer ul li a:hover{
+    transform: translateY(-10px);
+}
+
+footer .wave{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
